@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Route } from "react-router-dom";
-import { data } from "./data";
 
 import Navigation from "./components/Navigation";
 import Products from "./components/Products";
@@ -9,13 +8,6 @@ import CartContextProvider from "./contexts/CartContext";
 import ProductContextProvider from "./contexts/ProductContext";
 
 function App() {
-  //const [products, setProducts] = useState(data);
-  //const [cart, setCart] = useState([]);
-
-  const addItem = (item) => {
-    // verilen itemi sepete ekle
-  };
-
   return (
     <CartContextProvider>
       <ProductContextProvider>

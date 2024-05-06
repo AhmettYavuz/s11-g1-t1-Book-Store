@@ -4,12 +4,12 @@
   "numFailedTestSuites": 0,
   "numPendingTestSuites": 0,
   "numTotalTests": 20,
-  "numPassedTests": 18,
-  "numFailedTests": 2,
+  "numPassedTests": 20,
+  "numFailedTests": 0,
   "numPendingTests": 0,
   "numTodoTests": 0,
   "startTime": 1714993889246,
-  "success": false,
+  "success": true,
   "testResults": [
     {
       "assertionResults": [
@@ -20,7 +20,7 @@
           "fullName": " contexts klasöründe CartContext.Provider oluşturulmuş",
           "status": "passed",
           "title": "contexts klasöründe CartContext.Provider oluşturulmuş",
-          "duration": 22,
+          "duration": 21,
           "failureMessages": []
         },
         {
@@ -40,7 +40,7 @@
           "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
           "status": "passed",
           "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
-          "duration": 3,
+          "duration": 4,
           "failureMessages": []
         },
         {
@@ -70,7 +70,7 @@
           "fullName": " CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
           "status": "passed",
           "title": "CartContext.jsx dosyasında createContext() ile context oluşturulmuş",
-          "duration": 2,
+          "duration": 3,
           "failureMessages": []
         },
         {
@@ -80,7 +80,7 @@
           "fullName": " CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
           "status": "passed",
           "title": "CartContext.jsx dosyasında CartContext.Provider tanımlanmış",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": []
         },
         {
@@ -100,7 +100,7 @@
           "fullName": " App.jsxde oluşturulan her 2 provider da kullanılmış",
           "status": "passed",
           "title": "App.jsxde oluşturulan her 2 provider da kullanılmış",
-          "duration": 3,
+          "duration": 2,
           "failureMessages": []
         },
         {
@@ -108,16 +108,10 @@
             ""
           ],
           "fullName": " App.jsxde useStateler (import ve tanımlamalar) silinmiş",
-          "status": "failed",
+          "status": "passed",
           "title": "App.jsxde useStateler (import ve tanımlamalar) silinmiş",
-          "duration": 5,
-          "failureMessages": [
-            "expected 'importReact,{useState}from\"react\";imp…' to not include 'useState'"
-          ],
-          "location": {
-            "line": 93,
-            "column": 23
-          }
+          "duration": 3,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
@@ -156,7 +150,7 @@
           "fullName": " contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
           "status": "passed",
           "title": "contextAPI eklendikten sonra ana sayfa 4 kitabı da geririyor.",
-          "duration": 5,
+          "duration": 4,
           "failureMessages": []
         },
         {
@@ -176,7 +170,7 @@
           "fullName": " İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
           "status": "passed",
           "title": "İkinci kitapta Add to cart butonuna tıklanınca sağ üst cartta 2 yazıyor",
-          "duration": 14,
+          "duration": 15,
           "failureMessages": []
         },
         {
@@ -194,16 +188,10 @@
             ""
           ],
           "fullName": " Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
-          "status": "failed",
+          "status": "passed",
           "title": "Cart sayfasında Remove from cart kitabı sepetten çıkarıyor",
-          "duration": 24,
-          "failureMessages": [
-            "expected [ <h2></h2>, <h2></h2> ] to have a length of 1 but got 2"
-          ],
-          "location": {
-            "line": 137,
-            "column": 56
-          }
+          "duration": 23,
+          "failureMessages": []
         },
         {
           "ancestorTitles": [
@@ -222,13 +210,13 @@
           "fullName": " Cart bilgisi localStorageda güncelleniyor",
           "status": "passed",
           "title": "Cart bilgisi localStorageda güncelleniyor",
-          "duration": 31,
+          "duration": 30,
           "failureMessages": []
         }
       ],
-      "startTime": 1714997325645,
-      "endTime": 1714997325841,
-      "status": "failed",
+      "startTime": 1714997603988,
+      "endTime": 1714997604178,
+      "status": "passed",
       "message": "",
       "name": "/Users/ahmet/Documents/GitHub/projects/s11-g1-t1-Book-Store/src/__tests__/index.test.jsx"
     }
